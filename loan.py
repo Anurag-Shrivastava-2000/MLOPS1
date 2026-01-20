@@ -11,7 +11,7 @@ model = pickle.load(model_file)
 # API endpoints
 @app.route('/')
 def home():
-    return "<h1>Loan Approval Application V2!</h1>"
+    return "<h1>Loan Approval Application 11V2!</h1>"
 
 
 @app.route('/ping')
